@@ -1,0 +1,149 @@
+/* General container styling */
+.results-container {
+    padding: 2rem 4rem;
+    background-color: #f5f7fa;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+  }
+  
+  /* Title */
+  .results-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1a202c;
+    text-align: center;
+    margin-bottom: 2rem;
+    letter-spacing: 0.5px;
+  }
+  
+  /* Results grid */
+  .results-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    scroll-behavior: auto;
+    position: relative;
+    height: 100vh;
+
+  }
+  
+  /* User card */
+  .user-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    padding: 1.2rem 1.6rem;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  
+  .user-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* User header */
+  .user-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .user-avatar {
+    background-color: #4a90e2;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .user-name {
+    color: #2d3748;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  /* Policy badges */
+  .policy-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+  
+  .policy-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+    font-weight: 500;
+    border: 1px solid transparent;
+    transition: 0.2s ease-in-out;
+  }
+  
+  /* Success and failure colors */
+  .policy-badge.pass {
+    background-color: #e6ffed;
+    color: #176f2c;
+    border-color: #a8e6b8;
+  }
+  
+  .policy-badge.fail {
+    background-color: #ffecec;
+    color: #a02929;
+    border-color: #f5b1b1;
+  }
+  
+  /* Icon spacing */
+  .policy-icon {
+    font-size: 1rem;
+  }
+  
+  /* Loading text */
+  .loading-text {
+    text-align: center;
+    color: #666;
+    font-size: 1.1rem;
+  }
+  
+  .results-container {
+    padding: 2rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #f5f7fa;
+  }
+  
+  .results-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    overflow-y: auto;       /* ✅ enables vertical scroll */
+    overflow-x: hidden;     /* prevents horizontal scroll */
+    scroll-behavior: smooth;
+    flex-grow: 1;           /* takes up all available space below header */
+    padding-right: 0.5rem;  /* adds space to avoid scrollbar overlap */
+  }
+  
+  /* Optional: custom scrollbar styling */
+  .results-list::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .results-list::-webkit-scrollbar-thumb {
+    background-color: #c1c1c1;
+    border-radius: 4px;
+  }
+  
+  .results-list::-webkit-scrollbar-thumb:hover {
+    background-color: #a8a8a8;
+  }
+  

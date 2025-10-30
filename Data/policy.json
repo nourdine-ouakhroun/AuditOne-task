@@ -1,0 +1,13 @@
+[
+    { "id": "password_min_length", "rule": { "field": "password_length", "operator": ">=", "value": 8 } },
+    { "id": "mfa_required", "rule": { "field": "mfa_enabled", "operator": "==", "value": true } },
+    { "id": "email_verified", "rule": { "field": "email_verified", "operator": "==", "value": true } },
+    { "id": "recent_login", "rule": { "field": "last_login_days", "operator": "<=", "value": 30 } },
+    { "id": "active_user", "rule": { "field": "is_active", "operator": "==", "value": true } },
+    { "id": "admin_privilege", "rule": { "field": "is_admin", "operator": "==", "value": true } },
+    { "id": "role_check_user", "rule": { "field": "check_user", "operator": "==", "value": "user" } },
+    { "id": "role_check_admin", "rule": { "field": "check_admin", "operator": "==", "value": "admin" } },
+    { "id": "strong_password", "rule": { "field": "strong_password", "operator": ">=", "value": 18 } },
+    { "id": "recent_password_change", "rule": { "field": "days_since_password_change", "operator": "<=", "value": 90 } }
+  ]
+  

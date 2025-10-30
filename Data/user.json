@@ -1,0 +1,123 @@
+[
+    {
+      "id": "1", "username": "admin", "email": "admin@example.com",
+      "email_verified": true, "mfa_enabled": true, "role": "admin",
+      "is_active": true, "is_admin": true, "password_length": 14,
+      "last_login_days": 2, "days_since_password_change": 10
+    },
+    {
+      "id": "2", "username": "user1", "email": "user1@example.com",
+      "email_verified": true, "mfa_enabled": false, "role": "user",
+      "is_active": true, "is_admin": false, "password_length": 8,
+      "last_login_days": 15, "days_since_password_change": 45
+    },
+    {
+      "id": "3", "username": "user2", "email": "user2@example.com",
+      "email_verified": true, "mfa_enabled": false, "role": "user",
+      "is_active": false, "is_admin": false, "password_length": 12,
+      "last_login_days": 60, "days_since_password_change": 200
+    },
+    {
+      "id": "4", "username": "user3", "email": "user3@example.com",
+      "email_verified": false, "mfa_enabled": true, "role": "user",
+      "is_active": true, "is_admin": false, "password_length": 9,
+      "last_login_days": 1, "days_since_password_change": 20
+    },
+    {
+      "id": "5", "username": "user4", "email": "user4@example.com",
+      "email_verified": true, "mfa_enabled": false, "role": "user",
+      "is_active": true, "is_admin": false, "password_length": 5,
+      "last_login_days": 3, "days_since_password_change": 400
+    },
+    {
+      "id": "6", "username": "inactive_admin", "email": "ia@example.com",
+      "email_verified": true, "mfa_enabled": true, "role": "admin",
+      "is_active": false, "is_admin": true, "password_length": 16,
+      "last_login_days": 120, "days_since_password_change": 150
+    },
+    {
+      "id": "7", "username": "security_lead", "email": "sec@example.com",
+      "email_verified": true, "mfa_enabled": true, "role": "security",
+      "is_active": true, "is_admin": false, "password_length": 18,
+      "last_login_days": 5, "days_since_password_change": 20
+    },
+    {
+      "id": "8", "username": "guest1", "email": "guest1@example.com",
+      "email_verified": false, "mfa_enabled": false, "role": "guest",
+      "is_active": true, "is_admin": false, "password_length": 6,
+      "last_login_days": 25, "days_since_password_change": 365
+    },
+    {
+      "id": "9", "username": "user5", "email": "user5@example.com",
+      "email_verified": true, "mfa_enabled": true, "role": "user",
+      "is_active": true, "is_admin": false, "password_length": 10,
+      "last_login_days": 0, "days_since_password_change": 5
+    },
+    {
+      "id": "10", "username": "user6", "email": "user6@example.com",
+      "email_verified": true, "mfa_enabled": false, "role": "user",
+      "is_active": true, "is_admin": false, "password_length": 7,
+      "last_login_days": 2, "days_since_password_change": 100
+    },
+    {
+      "id": "11", "username": "user7", "email": "user7@example.com",
+      "email_verified": true, "mfa_enabled": true, "role": "user",
+      "is_active": true, "is_admin": false, "password_length": 11,
+      "last_login_days": 5, "days_since_password_change": 60
+    },
+    {
+      "id": "12", "username": "devops", "email": "devops@example.com",
+      "email_verified": true, "mfa_enabled": true, "role": "devops",
+      "is_active": true, "is_admin": false, "password_length": 13,
+      "last_login_days": 1, "days_since_password_change": 30
+    },
+    {
+      "id": "13", "username": "manager", "email": "manager@example.com",
+      "email_verified": true, "mfa_enabled": false, "role": "manager",
+      "is_active": true, "is_admin": false, "password_length": 10,
+      "last_login_days": 10, "days_since_password_change": 15
+    },
+    {
+      "id": "14", "username": "auditor", "email": "auditor@example.com",
+      "email_verified": true, "mfa_enabled": true, "role": "auditor",
+      "is_active": true, "is_admin": false, "password_length": 15,
+      "last_login_days": 7, "days_since_password_change": 5
+    },
+    {
+      "id": "15", "username": "intern", "email": "intern@example.com",
+      "email_verified": false, "mfa_enabled": false, "role": "intern",
+      "is_active": true, "is_admin": false, "password_length": 4,
+      "last_login_days": 5, "days_since_password_change": 200
+    },
+    {
+      "id": "16", "username": "contractor", "email": "contractor@example.com",
+      "email_verified": true, "mfa_enabled": false, "role": "contractor",
+      "is_active": true, "is_admin": false, "password_length": 9,
+      "last_login_days": 35, "days_since_password_change": 100
+    },
+    {
+      "id": "17", "username": "user8", "email": "user8@example.com",
+      "email_verified": true, "mfa_enabled": true, "role": "user",
+      "is_active": true, "is_admin": false, "password_length": 10,
+      "last_login_days": 9, "days_since_password_change": 90
+    },
+    {
+      "id": "18", "username": "disabled_user", "email": "du@example.com",
+      "email_verified": true, "mfa_enabled": false, "role": "user",
+      "is_active": false, "is_admin": false, "password_length": 8,
+      "last_login_days": 200, "days_since_password_change": 400
+    },
+    {
+      "id": "19", "username": "support", "email": "support@example.com",
+      "email_verified": true, "mfa_enabled": true, "role": "support",
+      "is_active": true, "is_admin": false, "password_length": 16,
+      "last_login_days": 4, "days_since_password_change": 60
+    },
+    {
+      "id": "20", "username": "analyst", "email": "analyst@example.com",
+      "email_verified": true, "mfa_enabled": false, "role": "analyst",
+      "is_active": true, "is_admin": false, "password_length": 9,
+      "last_login_days": 15, "days_since_password_change": 40
+    }
+  ]
+  

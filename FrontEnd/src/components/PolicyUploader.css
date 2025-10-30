@@ -1,0 +1,123 @@
+input[type="file"] {
+	display: none; /* hide native file input */
+}
+
+.upload-label {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem;
+	border: 2px dashed #4a90e2; /* AWS-blue dashed border */
+	border-radius: 8px;
+	background-color: #f9faff;
+	cursor: pointer;
+	width: 12rem;
+	height: 4rem;
+	text-align: center;
+	transition: background-color 0.2s, border-color 0.2s;
+	gap: 0.5rem;
+}
+
+.upload-label:hover {
+	background-color: #f0f5ff;
+	border-color: #3571c7;
+}
+
+.upload-label span {
+	font-size: 0.9rem;
+	font-weight: 500;
+	color: #333;
+}
+
+.upload-label svg {
+	width: 24px;
+	height: 24px;
+	stroke: #4a90e2;
+}
+
+.Policy-text {
+	font-size: 2rem;
+	font-weight: 700;
+	color: #222;
+	text-align: center;
+}
+
+.second-text {
+	color: dimgray;
+	font-size: 0.875rem;
+	text-align: center;
+}
+
+.upload-container {
+	padding: 12px;
+	border: 2px dashed #999;
+	border-radius: 8px;
+	cursor: pointer;
+	width: 45rem;
+	height: 30rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #fafafa;
+	transition: border-color 0.2s, background-color 0.2s;
+}
+
+.upload-container:hover {
+	border-color: #4a90e2;
+	background-color: #f5f9ff;
+}
+
+.container {
+	padding: 16px;
+	border: 1px solid #ccc;
+	border-radius: 12px;
+	background-color: #fff;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+	width: 50rem;
+	height: 30rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+label {
+	font-weight: 600;
+	margin-bottom: 8px;
+	color: #111;
+	display: block;
+	text-align: center;
+}
+
+.file-info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	margin-top: 12px;
+  }
+  
+  .file-info button {
+	padding: 4px 8px;
+	font-size: 0.8rem;
+	cursor: pointer;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	transition: background-color 0.2s;
+  }
+  
+  .file-info button:hover {
+  }
+  
+  .upload-btn {
+	background-color: #4a90e2;
+	color: white;
+	border: none;
+  }
+  
+  .upload-btn:hover {
+	background-color: #3571c7;
+  }
+  

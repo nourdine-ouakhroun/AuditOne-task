@@ -1,0 +1,7 @@
+uvicorn
+flask
+fastapi
+Flask-SQLAlchemy
+db-sqlite3
+sqlite-web
+python-multipart
