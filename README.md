@@ -66,6 +66,41 @@ npm run dev
 
 The app runs at `http://localhost:5173` and talks to the backend at `http://127.0.0.1:8000`.
 
+## Makefile
+
+You can use the provided `Makefile` to simplify setup and running both services.
+
+Common commands:
+
+```bash
+# Setup backend virtualenv and install Python dependencies
+make setup-backend
+
+# Install frontend dependencies
+make setup-frontend
+
+# Setup both backend and frontend
+make setup-all
+
+# Run backend API (FastAPI/Uvicorn)
+make run-backend
+
+# Run frontend (Vite dev server)
+make run-frontend
+
+# Run backend and frontend together (parallel jobs)
+make all
+
+# Stop running services (best-effort)
+make stop
+
+# Clean caches, venv, node_modules
+make clean
+
+# Show all available commands
+make help
+```
+
 ## Using the App
 
 1) Open the frontend in the browser.
